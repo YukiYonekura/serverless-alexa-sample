@@ -57,6 +57,8 @@ provider:
 functions:
   hello:
     handler: build/handler.hello
+    environment:
+      APPLICATION_ID: amzn1.ask.skill.620dd843-7bcc-4012-a6cd-2d111040d360
     events:
       - alexaSkill
 
